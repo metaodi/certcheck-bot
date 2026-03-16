@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 
 from github import Github, GithubException
 
-EXPIRY_THRESHOLD_DAYS = 45
+EXPIRY_THRESHOLD_DAYS = 14
 BOT_LABEL_NAME = "ssl-expiry"
 BOT_LABEL_COLOR = "e11d48"
 BOT_LABEL_DESCRIPTION = "SSL/TLS certificate expiry issue"
